@@ -1,0 +1,33 @@
+body {
+  /* background-color: rgb(255, 255, 255); */
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+#TicTacContent {
+  padding: 15% 35%;
+  width: fit-content;
+}
+.main_container {
+  width: 500px;
+  height: 500px;
+  /* margin-top:25%;
+  margin-left: 25%; */
+  display: grid;
+  place-self: center;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+}
+.cell {
+  width: 153px;
+  height: 153px;
+  display: flex;
+  flex: auto auto auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 3px solid rgb(180, 97, 97);
+  background-color: rgb(255, 255, 255);
+  color: #ffffff;
+  font-size: xxx-large;
+  border-radius: 12px;
+}
